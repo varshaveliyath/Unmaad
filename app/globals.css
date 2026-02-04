@@ -24,7 +24,7 @@
     }
 
     .animate-spin-slow {
-        animation: spin 10s linear infinite;
+        animation: spin 40s linear infinite;
     }
 
     @keyframes spin {
@@ -34,6 +34,32 @@
 
         to {
             transform: rotate(360deg);
+        }
+    }
+
+    .animate-clock {
+        animation: clock-wipe 1s cubic-bezier(0.4, 0, 0.2, 1) both;
+    }
+
+    @keyframes clock-wipe {
+        0% {
+            clip-path: polygon(50% 50%, 50% 0, 50% 0, 50% 0, 50% 0, 50% 0, 50% 0);
+        }
+
+        25% {
+            clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 50%, 100% 50%, 100% 50%, 100% 50%);
+        }
+
+        50% {
+            clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 100%, 50% 100%, 50% 100%, 50% 100%);
+        }
+
+        75% {
+            clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 100%, 0 100%, 0 50%, 0 50%);
+        }
+
+        100% {
+            clip-path: polygon(50% 50%, 50% 0, 100% 0, 100% 100%, 0 100%, 0 0, 50% 0);
         }
     }
 }

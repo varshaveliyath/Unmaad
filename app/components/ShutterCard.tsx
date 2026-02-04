@@ -18,7 +18,7 @@ const ShutterCard = ({
 
     return (
         <div
-            className="relative w-48 h-[240px] md:w-80 md:h-[360px] cursor-pointer overflow-hidden mx-2 transition-transform"
+            className="relative w-72 h-[370px] md:w-80 md:h-[370px] cursor-pointer overflow-hidden mx-2 transition-transform"
             onClick={() => setIsOpen(!isOpen)}
         >
             {/* Content (In Front) */}
@@ -36,10 +36,10 @@ const ShutterCard = ({
 
             {/* Shutter Cover (Behind) - Slides Up */}
             <div
-                className={`absolute inset-1 z-0 flex items-center justify-center transition-transform duration-1000 ease-in-out md:-translate-x-[3px] ${isOpen ? "-translate-y-full" : "translate-y-[10px]"
+                className={`absolute inset-1 z-0 flex items-center justify-center transition-transform duration-1000 ease-in-out md:-translate-x-[3px] ${isOpen ? "-translate-y-full" : "translate-y-[20px] md:translate-y-[10px]"
                     }`}
             >
-                <div className="w-[85%] h-[70%]">
+                <div className="w-[85%] h-[60%]">
                     <Image
                         src={coverImage}
                         alt="Shutter"

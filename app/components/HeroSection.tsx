@@ -32,7 +32,7 @@ const HeroSection = () => {
             </div>
 
             {/* Container for the central composition */}
-            <div className="relative z-10 flex flex-col items-center mt-0 md:mt-20 px-4">
+            <div className="relative z-10 flex flex-col items-center mt-0 md:mt-[110px] px-4">
 
                 {/* Mobile Layout: Flower 1 at top */}
                 <div className="md:hidden mb-2">
@@ -41,7 +41,7 @@ const HeroSection = () => {
                         alt="Flower 1"
                         width={120}
                         height={120}
-                        className="w-32 h-32 object-contain"
+                        className="w-36 h-36 object-contain"
                     />
                 </div>
 
@@ -121,7 +121,7 @@ const HeroSection = () => {
                         alt="Unmaad Logo"
                         width={400}
                         height={400}
-                        className="w-72 drop-shadow-lg"
+                        className="w-80 drop-shadow-lg"
                         priority
                     />
                 </div>
@@ -144,7 +144,7 @@ const HeroSection = () => {
                         alt="Flower 4"
                         width={120}
                         height={120}
-                        className="w-32 h-32 object-contain"
+                        className="w-36 h-36 object-contain"
                     />
                 </div>
 
