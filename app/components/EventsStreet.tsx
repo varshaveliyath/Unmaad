@@ -65,7 +65,7 @@ const EventsStreet = () => {
             </div>
 
             {/* Background Image: Grey (30%) */}
-            <div className="relative w-full h-[30%]">
+            <div className="absolute w-full h-[30%]">
                 <Image
                     src="/unmaad assets/grey-bg.png"
                     alt="Grey Background"
