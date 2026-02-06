@@ -294,7 +294,7 @@ const CompetitionBazaar = () => {
                                     alt="Building"
                                     width={400}
                                     height={400}
-                                    className="w-[21rem] md:w-[20rem] h-auto object-contain relative z-10"
+                                    className="w-[33rem] md:w-[20rem] h-auto object-contain relative z-10"
                                 />
                                 <div className="absolute bottom-[20px] md:bottom-[40px] z-20 translate-y-[15%]">
                                     <Image
@@ -303,7 +303,7 @@ const CompetitionBazaar = () => {
                                         alt="Frame"
                                         width={210}
                                         height={210}
-                                        className="w-[9rem] md:w-[13rem] h-auto object-contain hover:scale-105 transition-transform duration-300 cursor-pointer animate-slide-in-bottom"
+                                        className="w-[10.8rem] md:w-[13rem] h-auto object-contain hover:scale-105 transition-transform duration-300 cursor-pointer animate-slide-in-bottom"
                                         style={{ animationDelay: '0s' }}
                                     />
                                 </div>
@@ -318,7 +318,7 @@ const CompetitionBazaar = () => {
                                         alt="Frame"
                                         width={210}
                                         height={210}
-                                        className="w-[9rem] md:w-[13rem] h-auto object-contain hover:scale-105 transition-transform duration-300 cursor-pointer animate-slide-in-bottom"
+                                        className="w-[10.8rem] md:w-[13rem] h-auto object-contain hover:scale-105 transition-transform duration-300 cursor-pointer animate-slide-in-bottom"
                                         style={{ animationDelay: '0.1s' }}
                                     />
                                     <Image
@@ -353,7 +353,7 @@ const CompetitionBazaar = () => {
                                         alt="Frame"
                                         width={210}
                                         height={210}
-                                        className="w-[9rem] md:w-[13rem] h-auto object-contain hover:scale-105 transition-transform duration-300 cursor-pointer animate-slide-in-bottom"
+                                        className="w-[10.8rem] md:w-[13rem] h-auto object-contain hover:scale-105 transition-transform duration-300 cursor-pointer animate-slide-in-bottom"
                                         style={{ animationDelay: '0.2s' }}
                                     />
                                     <Image
@@ -386,7 +386,7 @@ const CompetitionBazaar = () => {
                                     alt="Building"
                                     width={400}
                                     height={400}
-                                    className="w-[14rem] md:w-[20rem] h-auto object-contain relative z-10"
+                                    className="w-[22rem] md:w-[20rem] h-auto object-contain relative z-10"
                                 />
                                 <div className="absolute bottom-[20px] md:bottom-[40px] z-20 translate-y-[15%]">
                                     <Image
@@ -395,7 +395,7 @@ const CompetitionBazaar = () => {
                                         alt="Frame"
                                         width={210}
                                         height={210}
-                                        className="w-[9rem] md:w-[13rem] h-auto object-contain hover:scale-105 transition-transform duration-300 cursor-pointer animate-slide-in-bottom"
+                                        className="w-[10.8rem] md:w-[13rem] h-auto object-contain hover:scale-105 transition-transform duration-300 cursor-pointer animate-slide-in-bottom"
                                         style={{ animationDelay: '0.3s' }}
                                     />
                                 </div>
@@ -411,7 +411,7 @@ const CompetitionBazaar = () => {
                                     alt="Frame"
                                     width={210}
                                     height={210}
-                                    className="w-[9rem] md:w-[13rem] h-auto object-contain hover:scale-105 transition-transform duration-300 cursor-pointer animate-slide-in-bottom"
+                                    className="w-[10.8rem] md:w-[13rem] h-auto object-contain hover:scale-105 transition-transform duration-300 cursor-pointer animate-slide-in-bottom"
                                     style={{ animationDelay: '0.4s' }}
                                 />
                                 <Image

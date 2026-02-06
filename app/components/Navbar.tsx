@@ -10,7 +10,7 @@ const Navbar = () => {
     const navLinks = [
         { name: "Unmaad Junction", href: "/#unmaad-junction" },
         { name: "Events Street", href: "/pages/events-street" },
-        { name: "Competitions Bazaar", href: "/pages/competition-bazaar" },
+        { name: "Competition Bazaar", href: "/pages/competition-bazaar" },
         { name: "Merch Store", href: "/#merch" },
         { name: "Sponsor Alley", href: "/#sponsor" },
         { name: "Contact Spot", href: "/#contact" },
