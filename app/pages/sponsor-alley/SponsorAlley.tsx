@@ -146,8 +146,7 @@ const SponsorAlley = () => {
                             <HomeButton
                                 href="/pages/events-street"
                                 text="Enter the street"
-                                imgClassName="w-40 md:w-60 h-auto"
-                                textClassName={`text-[10px] md:text-lg font-bold text-center px-4 uppercase ${baiJamjuree.className} text-[#FF00A8]`}
+                                textClassName={baiJamjuree.className}
                             />
                         </div>
                     </div>

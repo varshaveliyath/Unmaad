@@ -89,14 +89,13 @@ const CardFrame = ({ className, style, title, link, image, decoration, flipDecor
             />
             {image && (
                 <div
-                    className={`absolute top-[calc(50%+22px)] md:top-[calc(50%+31px)] lg:top-[calc(50%+38px)] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[130%] h-[130%] z-30 pointer-events-none ${className?.includes('invisible') ? 'hidden' : ''}`}
-                    style={{ clipPath: 'inset(26% 22% 26% 22%)' }}
+                    className={`absolute top-[calc(50%+22px)] md:top-[calc(50%+31px)] lg:top-[calc(50%+38px)] left-1/2 -translate-x-1/2 -translate-y-1/2 z-30 pointer-events-none ${className?.includes('invisible') ? 'hidden' : ''} w-[73%] h-[62%]`}
                 >
                     <Image
                         src={image}
                         alt={title || "Card Image"}
                         fill
-                        className="object-cover"
+                        className="object-contain"
                     />
                 </div>
             )}
@@ -265,7 +264,7 @@ const CompetitionBazaar = () => {
                                     imgWidth={250}
                                     imgHeight={90}
                                     imgClassName="w-40 md:w-60 h-auto"
-                                    textClassName={`text-[10px] md:text-base font-bold text-center px-6 uppercase ${baiJamjuree.className} leading-tight ${activeTab === text ? 'text-black' : 'text-white'}`}
+                                    textClassName={`text-[9px] md:text-xs lg:text-[15px] font-bold text-center px-6 uppercase ${baiJamjuree.className} leading-tight ${activeTab === text ? 'text-black' : 'text-white -translate-y-[5%]'}`}
                                     shadowColor={activeTab === text ? "black" : "white"}
                                     shadowClassName={activeTab === text ? "hidden" : undefined}
                                     onClick={() => setActiveTab(text)}
@@ -535,11 +534,7 @@ const CompetitionBazaar = () => {
                     <HomeButton
                         className="mt-4 md:mt-8 lg:mt-12 drop-shadow-xl"
                         text="Enter the street"
-                        imageSrc="/unmaad assets/home-button.svg"
-                        imgWidth={200}
-                        imgHeight={70}
-                        imgClassName="w-40 md:w-56 lg:w-72 h-auto"
-                        textClassName={`text-[10px] md:text-sm lg:text-xl font-bold text-center px-4 uppercase ${baiJamjuree.className} text-[#FF00A8]`}
+                        textClassName={baiJamjuree.className}
                         shadowColor="black"
                         onClick={() => { }} // Optional: handle click if needed
                     />

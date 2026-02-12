@@ -102,8 +102,7 @@ const UnmaadJunction = () => {
                 <HomeButton
                     href="https://www.youtube.com/watch?v=PfOL_uqhW1o&t=4s"
                     text="Watch Aftermovie"
-                    imgClassName="w-40 md:w-60 h-auto"
-                    textClassName="text-xs md:text-lg font-bold font-century-gothic"
+                    textClassName="font-century-gothic"
                 />
 
             </div>

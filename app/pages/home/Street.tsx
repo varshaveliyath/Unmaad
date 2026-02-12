@@ -92,8 +92,7 @@ const Street = () => {
                         <HomeButton
                             href="/pages/competition-bazaar"
                             text="Explore all event"
-                            imgClassName="w-40 md:w-60 h-auto"
-                            textClassName={`text-sm md:text-2xl font-bold ${baiJamjuree.className}`}
+                            textClassName={baiJamjuree.className}
                         />
                     </div>
 

@@ -154,14 +154,12 @@ const HeroSection = () => {
                     <HomeButton
                         href="https://www.skillboxes.com/events/seedhe-maut-unmaad-iim-s-annual-cultural-fest"
                         text="Book your Spot"
-                        imgClassName="w-32 md:w-60 h-auto"
-                        textClassName={`text-[10px] md:text-lg font-bold ${baiJamjuree.className}`}
+                        textClassName={baiJamjuree.className}
                     />
                     <HomeButton
                         href="/pages/competition-bazaar"
                         text="Enter the Street"
-                        imgClassName="w-32 md:w-60 h-auto"
-                        textClassName={`text-[10px] md:text-lg font-bold ${baiJamjuree.className}`}
+                        textClassName={baiJamjuree.className}
                     />
                 </div>
             </div>

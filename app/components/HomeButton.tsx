@@ -22,10 +22,10 @@ const HomeButton = ({
     text,
     className = "",
     textClassName = "",
-    imgClassName = "w-40 md:w-60 h-auto", // Default includes h-auto
+    imgClassName = "w-40 md:w-60 lg:w-72 h-auto", // Standardized size
     imageSrc = "/unmaad assets/home-button.svg",
-    imgWidth = 240,
-    imgHeight = 80,
+    imgWidth = 280, // Increased default to accommodate larger desktop size
+    imgHeight = 90,
     shadowColor = 'black',
     shadowClassName,
     onClick
@@ -52,7 +52,7 @@ const HomeButton = ({
                 />
                 {text && (
                     <span
-                        className={`absolute inset-0 flex items-center justify-center text-[#FF00A8] pointer-events-none ${textClassName}`}
+                        className={`absolute inset-0 flex items-center justify-center text-[#FF00A8] pointer-events-none text-[10px] md:text-base lg:text-xl font-bold uppercase ${textClassName}`}
                     >
                         {text}
                     </span>
