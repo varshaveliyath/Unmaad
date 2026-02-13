@@ -15,6 +15,8 @@ interface HomeButtonProps {
     shadowColor?: 'black' | 'white'; // Shadow color
     shadowClassName?: string; // Custom shadow styling
     onClick?: () => void;
+    target?: string;
+    rel?: string;
 }
 
 const HomeButton = ({
@@ -28,6 +30,8 @@ const HomeButton = ({
     imgHeight = 90,
     shadowColor = 'black',
     shadowClassName,
+    target,
+    rel,
     onClick
 }: HomeButtonProps) => {
     const commonClasses = `relative group inline-block ${className}`;
@@ -68,6 +72,8 @@ const HomeButton = ({
                 onClick={onClick}
                 className={commonClasses}
                 scroll={false} // Prevent scroll to top for anchor links if needed
+                target={target}
+                rel={rel}
             >
                 {Content}
             </Link>
